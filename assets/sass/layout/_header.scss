@@ -1,0 +1,32 @@
+.header{
+    
+}
+a {
+    color: $black;
+
+    &:hover {
+        color: $black;
+    }
+
+    i {
+        font-size: 20px;
+    }
+}
+.navbar-nav > li {
+    padding: 0px 10px 0px 10px;
+}
+.container__span {
+    font-size: $small;
+    bottom: 25px;
+    position: relative;
+}
+.navigation {
+    background: white;
+}
+.principal-image__image {
+    position: relative;
+    width: 100vw;
+    height: 25vw;
+    object-fit: cover;
+    margin-top: 64px;
+}
