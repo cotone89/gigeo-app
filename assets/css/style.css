@@ -9950,16 +9950,51 @@ a i {
   background: white;
 }
 
+.autor-section {
+  margin: 0;
+  align-items: center;
+}
+
+.autor-section__descripcion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .autor-section__descripcion {
+    justify-content: left;
+    padding-left: 15%;
+  }
+}
+
+p {
+  color: #808080;
+}
+
+.video-section {
+  padding: 1% 7% 1% 7%;
+}
+
+.video-section__lista {
+  display: flex;
+  flex-direction: row;
+}
+
+.autor-section__boton {
+  border-radius: 0%;
+}
+
+.autor-section__image {
+  width: 140px;
+  border-radius: 50%;
+}
+
 .principal-image__image {
   position: relative;
   width: 100vw;
   height: 25vw;
   object-fit: cover;
   margin-top: 64px;
-}
-
-.autor-section {
-  display: float;
 }
 
 /*# sourceMappingURL=style.css.map */

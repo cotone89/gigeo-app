@@ -1,3 +1,27 @@
-.autor-section{
-    display:float;
+.autor-section {
+    margin: 0;
+    align-items: center;
+
+
+}
+.autor-section__descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include respond-to('medium') {
+        justify-content: left;
+        padding-left: 15%;
+    }
+}
+p{
+    color:$gray;
+}
+.video-section {
+    padding: 1% 7% 1% 7%;
+}
+
+.video-section__lista {
+    display: flex;
+    flex-direction:row;
 }
